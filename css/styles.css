@@ -1,0 +1,212 @@
+:root {
+    --primary-text-colr: #757575;
+    --accent-color: #2196f3;
+    --primary-white-color: #ffffff;
+    --title-text-color: #212121;
+    --white-text-color: rgba(255, 255, 255, 0.6);
+    --grey-bg-color:#f5f4fa;
+    --black-bg-color: #2f303a;
+    --button-color: #188ce8;
+}
+.list {
+    list-style: none;
+}
+/* body */
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--primary-text-colr);
+    background-color: var(--primary-white-color);
+}
+/* Logo */
+.link-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000000;
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+.link-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.link-nav .curent {
+    color: var(--accent-color);
+}
+
+.link-nav .link:hover,
+.link-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.link-contacts .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.link-contacts .link:hover,
+.link-contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+    background-color: var(--black-bg-color);
+}
+.hero-heading {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-btn {
+    color: var(--primary-white-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--button-color);
+}
+/* our-advantages */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.points {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+
+h2 {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+/* our-team */
+.our-team {
+    background-color: var(--grey-bg-color);
+}
+
+.our-team-item {
+    background-color: var(--primary-white-color);
+}
+.workers {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.position {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+
+/* footer */
+.page-footer {
+    background-color: var(--black-bg-color);
+}
+.logo-footer {
+    color: var(--primary-white-color);
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo-footer-accent {
+    color: var(--accent-color);
+}
+.link-footer {
+    color: var(--primary-white-color);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.contacts-footer .link {
+    color: var(--white-text-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.contacts-footer .link:hover,
+.contacts-footer .link:focus {
+    color: var(--accent-color);
+}
+/* Portfolio */
+.filter-btn {
+    color: var(--title-text-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--grey-bg-color);
+    cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.our-projects-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.our-projects .link {
+    text-decoration: none;
+}
+.our-projects .text {
+    color: var(--primary-text-colr);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
