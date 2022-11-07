@@ -49,7 +49,7 @@ body {
 }
 
 .link-contacts .link {
-    color: var(--title-text-color);
+    color: var(--primary-text-colr);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
